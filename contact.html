@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Shree Soni Jewellers</title>
+  <meta name="description"
+    content="Book a consultation with Shree Soni Jewellers for bridal, custom, and premium jewellery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/shree-soni-logo.jpeg" alt="Shree Soni Jewellers logo"
+          onerror="this.onerror=null;this.src='assets/logo-fallback.svg';">
+        <span class="brand-text">Shree Soni Jewellers</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="collections.html" data-i18n="navCollections">Collections</a>
+        <a href="about.html" data-i18n="navAbout">About</a>
+        <a class="active" href="contact.html" data-i18n="navContact">Contact</a>
+      </nav>
+      <select class="lang-switch" id="langSwitch" aria-label="Language selector">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="or">Odia</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero section-pad">
+      <div class="container reveal">
+        <p class="eyebrow">Get In Touch</p>
+        <h1>Book a Jewellery Consultation</h1>
+        <p>Share your requirement and our design team will connect within 24 hours.</p>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container contact-grid">
+        <article class="contact-info reveal">
+          <h2>Store Information</h2>
+          <p><strong>Address:</strong> Belpahar Fatak, Dist. Jharsuguda, At/Po Belpahar, Pin 768218, Odisha, Near Post
+            Office, Near Kiosk SBI Mini Bank, Bazar Road</p>
+          <p><strong>Phone:</strong> +91 95834 20885</p>
+          <p><strong>Email:</strong> webservicesbrown@gmail.com</p>
+          <p><strong>Hours:</strong> Mon-Sat, 10:30 AM - 8:30 PM</p>
+        </article>
+
+        <form class="contact-form reveal delay-1" id="inquiryForm">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" required>
+
+          <label for="service">Interested In</label>
+          <select id="service" name="service" required>
+            <option value="">Select one</option>
+            <option>Bridal Collection</option>
+            <option>Diamond Jewellery</option>
+            <option>Custom Design</option>
+            <option>Repair and Care</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us what you are looking for..."></textarea>
+
+          <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+          <p class="form-msg" id="formMessage" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-pad slim-top">
+      <div class="container action-grid">
+        <a class="action-card reveal" href="tel:+919583420885">
+          <h3>Call Store</h3>
+          <p>Talk directly with our team for urgent inquiries and availability.</p>
+        </a>
+        <a class="action-card reveal delay-1" href="https://wa.me/919583420885" target="_blank"
+          rel="noopener noreferrer">
+          <h3>WhatsApp Assistance</h3>
+          <p>Share design images and get quick suggestions from our experts.</p>
+        </a>
+        <a class="action-card reveal delay-2" href="https://maps.google.com/?q=Belpahar+Fatak+Jharsuguda+Odisha"
+          target="_blank" rel="noopener noreferrer">
+          <h3>Get Directions</h3>
+          <p>Find the easiest route to our showroom on Bazar Road, Belpahar.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container split-grid">
+        <article class="map-card reveal">
+          <h2>Visit Our Showroom</h2>
+          <p>Belpahar Fatak, Dist. Jharsuguda, At/Po Belpahar, Odisha - 768218</p>
+          <iframe title="Shree Soni Jewellers Location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Belpahar+Fatak+Jharsuguda+Odisha&output=embed"></iframe>
+        </article>
+        <article class="info-panel reveal delay-1">
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-list">
+            <details>
+              <summary>Do you provide certification?</summary>
+              <p>Yes, we provide BIS hallmark details and required authenticity paperwork.</p>
+            </details>
+            <details>
+              <summary>Can I customize jewellery from photos?</summary>
+              <p>Yes, you can bring references and our design team will create custom options.</p>
+            </details>
+            <details>
+              <summary>Is old gold exchange available?</summary>
+              <p>Yes, old gold exchange is available with transparent valuation process.</p>
+            </details>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad slim-top">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Store Highlights</p>
+          <h2>Inside Shree Soni Jewellers</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal">
+            <img src="assets/Ultra_wide_shot_of_glowing_jewellery_showroom_exte_46b34eb2af.jpeg"
+              alt="Luxury showroom interior">
+            <figcaption>Luxury Showroom Interior</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-1">
+            <img src="assets/Luxury_jewellery_showroom_interior_glass_display_c_ae68303bff.jpeg"
+              alt="Jewellery display counter with curated pieces">
+            <figcaption>Display Counter</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-2">
+            <img src="assets/Jewellery_consultation_seating_area_e0cc69497f.jpeg"
+              alt="Jewellery consultation seating area">
+            <figcaption>Consultation Lounge</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="assets/Artisan_polishing_gold_ornament_05fb969ac9.jpeg" alt="Artisan polishing a gold ornament">
+            <figcaption>Hand Finishing Process</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-1">
+            <img src="assets/22k_gold_chain_white_background_b026299a7c.jpeg" alt="22k gold chain product shot">
+            <figcaption>22K Gold Chain</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-2">
+            <img src="assets/Closeup_of_jewellery_display_counter_with_arranged_6b693af1a3.jpeg"
+              alt="Editorial jewellery flat lay collection">
+            <figcaption>Editorial Collection Shot</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 data-i18n="brandName">Shree Soni Jewellers</h3>
+        <p data-i18n="footerTag">Where elegance meets emotion.</p>
+      </div>
+      <div>
+        <h4 data-i18n="visitUs">Visit Us</h4>
+        <p>Belpahar Fatak, Dist. Jharsuguda, At/Po Belpahar, Pin 768218, Odisha, Near Post Office, Near Kiosk SBI Mini
+          Bank, Bazar Road</p>
+      </div>
+      <div>
+        <h4 data-i18n="callUs">Call</h4>
+        <p>+91 95834 20885</p>
+        <p>webservicesbrown@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/919583420885" target="_blank" rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp">
+    WhatsApp
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
